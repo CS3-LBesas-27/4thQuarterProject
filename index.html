@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> homepage </title>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />    
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo"> ECOLOGIA </a>
+            <ul>
+                <li><a href="index.html" class="active"> HOME </a></li>
+                <li><a href="Signup.html"> SIGN UP </a></li>
+                <li><a href="login.html"> LOG IN </a></li>
+            </ul>
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        </br>
+        <section>
+            <img src="rain.jpg" class="rain">
+        </section>
+        <div class="boxx">
+            <img src="racoon.jpg" class="rac">
+        </div>
+        <div class="what">
+            <p class="whatt"><b>Ecology</b> is the study of the relationships between living 
+                organisms, including humans, and their physical environment</p>
+            <p class="whatt">
+                It helps us understand how ecosystems function. Understanding the 
+                changes in environment can help us anticipate for future ecological challenges
+                and inform people about the challenges they would be facing.
+            </p>
+        </div>
+        <br>
+
+        <section>
+            <img src="eco2.jpg" class="desert">
+        </section>
+
+        <div class="info">
+            <a href="ecologists.html">
+                <div class="image">
+                    <img src="famous ecologist.png" class="eco" alt="">
+                    <div class="img_overlay">
+                        <div class="img_title">Famous ecologists</div>
+                        <div class="img_info"><p>Famous ecologists of our time and their contributions</p></div>
+                    </div>
+                </div>
+            </a>
+            <div class="infoo">
+                <h2> Biotic and Abiotic factors </h2>
+                <p><b> Biotic components </b> are living factors of an ecosystem. </p>
+                <br>
+                <p><b>Abiotic components</b> are non-living chemical and physical factors of an ecosystem
+                    it could be acquired from the atmosphere, lithosphere are hydrosphere.</p>
+            </div>
+        </div>
+        <section>
+            <img src="It’s never too late to change!.png" class="never" alt="">
+        </section>
+        <div class="types">
+            <h2> Different types of ecology: </h2>
+            <br>
+            <h3> Global Ecology </h3>
+            <p> It deals with interatctions among earth's ecosystem, atmosphere, land, and oceans.</p>
+            <br>
+            <h3> Ecosystem ecology </h3>
+            <p> It deals with the entire ecosystem, including the study of living and non-living components and their relationship with the environment.</p>
+            <br>
+            <h3> Community Ecology </h3>
+            <p> It deals with how community structure is modified by interactions among living organism.</p>
+            <br>
+            <h3> Landscape Ecology </h3>
+            <p> It deals with the exchange of energy, materials, organisms, and other products of ecosystems.</p>
+            <br>
+            <h3> Population Ecology </h3>
+            <p> It deals with factors that alter and impact the genetic composition and size of the population of organisms.
+                It examines the population distribution and density.
+            </p>
+            <br>
+            <h3> Organismal Ecology </h3>
+            <p> Is the study of an individual organism's behaviour, morphology, physiology, etc. in response to environmental challenges.</p>
+            <br>
+            <h3> Molecular Ecology </h3>
+            <p> It focuses on the production of proteins and how these proteins affect the organisms and their environment.</p>
+        </div>
+        <br>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        </br>
+            <p class="quote"><b>"The more clearly we can focus our attention on the wonders and realities of the universe
+                about us, the less taste we shall have for destruction."</b>
+            <br>-Rachel Carson
+            </p>
+        </div>
+        <button id="btnScrollToTop">
+            <span class="material-symbols-outlined"> arrow_upward </span>
+        </button>
+    </body>
+    <script>
+       const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+       btnScrollToTop.addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth"
+            });
+       });
+    </script>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Sign Up page</title>
+        <link rel="stylesheet" type="text/css" href="Signup.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo"> ECOLOGIA </a>
+            <ul>
+                <li><a href="index.html" class="active"> HOME </a></li>
+                <li><a href="Signup.html" class="sign"> SIGN UP </a></li>
+                <li><a href="login.html"> LOG IN </a></li>
+            </ul>
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form>
+            <legend>SIGN UP</legend>
+            <br>
+            <label for="UserName">Preferred Username:</label>
+            <br>
+            <input type="text" id="UserName" name="UserName" required>
+            <br></br>
+
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br></br>
+
+            <label for="Pass">Password:</label>
+            <br>
+            <input type="password" id="pass" name="Pass" required>
+            <br></br>
+            
+            <label for="ConfirmPass">Confirm Password:</label>
+            <br>
+            <input type="password" id="cpass" name="CPass" required>
+            <br></br>
+            
+            <input type="submit" value="Sign up" id="sub" onclick="store()">
+            
+            <div class="container signin">
+                <p>Already have an account? <a href="login.html">Log In</a></p>
+            </div>
+        </form>
+    </body>
+    <script type="text/javascript" language="javascript" src="login.js"></script>
+</html>

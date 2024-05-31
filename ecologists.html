@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>ECOLOGISTS</title>
+        <link rel="stylesheet" type="text/css" href="ecologists.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />    
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+       
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo"> ECOLOGIA </a>
+            <ul>
+                <li><a href="index.html"> HOME </a></li>
+                <li><a href="Signup.html" class="sign"> SIGN UP </a></li>
+                <li><a href="login.html" class="active"> LOG IN </a></li>
+            </ul>
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <section class="ecoly">
+            <div class="card">            
+                <img class="profile" src="Darwin.webp">   
+                <h1>Charles Dawrin</h1>
+                <p class="honor">12 February 1809–19 April 1882, British Naturalist</p>
+
+                <p>He completed the Copernican Revolution by drawing out for biology the notion of nature as a system of matter in motion governed by natural laws. With this, the origin and adaptations of organisms were brought into the realm of science.</p>
+            </div>
+            <div class="card">            
+                <img class="profile" src="rachel.webp">   
+                <h1>Rachel Carson</h1>
+                <p class="honor">1907-1964, “Mother of the Modern Environmental Movement”</p>
+
+                <p>Carson's work led to the establishment of the Environmental Protection Agency and the first Earth Day celebration in 1970. Silent Spring influenced several federal conservation policies</p>
+            </div>
+            <div class="card">            
+                <img class="profile" src="elton.jfif">   
+                <h1>Charles Elton</h1>
+                <p class="honor">29 March 1900 – 1 May 1991, English zoologist and animal ecologist.</p>
+
+                <p>He is associated with the development of population and community ecology, including studies of invasive organisms.</p>
+            </div>
+            <div class="card">            
+                <img class="profile" src="harper.jpg">   
+                <h1>John Harper</h1>
+                <p class="honor">27 May 1925 – 22 March 2009, British biologist</p>
+
+                <p>He revolutionized plant ecology. He also brought population biology and experimental approaches into forefront of plant ecology, linking demography and selection and therefore ecology and evolution.</p>
+            </div>
+            <div class="card">            
+                <img class="profile" src="evelyn.webp">   
+                <h1>Evelyn Hutchinson</h1>
+                <p class="honor">January 30, 1903 – May 17, 1991, "Father of Modern Ecology"</p>
+
+                <p>helping to shape the fields of modern biology and environmentalism, and furthering our understanding of climate change. </p>
+            </div>
+        </section>
+        <button id="btnScrollToTop">
+            <span class="material-symbols-outlined"> arrow_upward </span>
+        </button>
+    </body>
+    <script>
+        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+        btnScrollToTop.addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth"});
+        });
+    </script>
+</html>
